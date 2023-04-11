@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogos Jogados</title>
     <link rel="stylesheet" href="estilo.css">
+    <style>
+        .serie {
+            color: green;
+        }
+        .filme {
+            color: blue;
+        }
+        .jogo {
+            color: orangered;
+        }
+        p > .jogo {
+            border-bottom: dashed;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -21,25 +35,25 @@
     <main>
         <p>três últimos jogos que eu joguei:</p>
         <ol>
-
-            <li> jogo da velha</li>
-            <li> bate virA</li>
-            <li> clash royale</li>
-
+            <li class="jogo"> jogo da velha</li>
+            <li class="jogo"> bate virA</li>
+            <li class="jogo"> clash royale</li>
+            <li class="jogo"> minecraft</li>
         </ol>
+        <p> E o <span class="jogo">minecrafrt</span> foi meu preferido</p>
 
         <p>Filmes e Séries:</p>
         <ul>
             <li><div>Filmes</div>
                     <ul>
-                        <li style="color: blue;">Interstellar</li>
-                        <li style="color: blue;">Shrek</li>
+                        <li class="filme">Interstellar</li>
+                        <li class="filme">Shrek</li>
                     </ul>
                 </li>
                 <li><div>Séries</div>
-                    <ul style="color: green;">
-                        <li>Breaking bad</li>
-                        <li>The last of us</li>
+                    <ul >
+                        <li class="serie">Breaking bad</li>
+                        <li class="serie">The last of us</li>
                     </ul>
 
                 </li>
